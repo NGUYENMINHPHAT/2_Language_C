@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+float s;
+int i;
+float t=0;
+scanf("%f",&s);
+for(i=1;t<=s;i++){
+    t=t+(1.0/i);
+}
+    printf("%d\n",i-1);
+}
+

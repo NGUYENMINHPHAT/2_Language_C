@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+int i;
+float s;
+float tong=0;
+scanf("%f",&s);
+for (i=1;tong<=s;i++){
+tong=tong+(1.0/i);
+}
+printf("%d\n",i-1);
+}

@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int a, b,c;
+    scanf("%d%d%d", &a,&b,&c);
+        if(c%2==0)
+        printf("Co it nhat 1 so trong doan [%d, %d] la uoc cua %d.", a, b,c);
+        else{
+ printf("Khong co so nao trong doan [%d, %d] la uoc cua %d.", a, b,c);
+        }
+    return 0;
+}

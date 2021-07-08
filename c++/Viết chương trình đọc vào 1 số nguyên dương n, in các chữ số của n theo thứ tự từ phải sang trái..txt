@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main (){
+	int so, dao;
+	so = 0;
+	scanf ("%d", &so);
+	if ( so > 0)
+	 while ( so != 0) {
+	 	dao = so % 10;
+	 	 printf ("%d", dao);
+	    so = so/10;
+	  }
+	return 0;
+}

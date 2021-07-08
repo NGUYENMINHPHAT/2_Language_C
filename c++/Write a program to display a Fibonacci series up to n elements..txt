@@ -1,0 +1,13 @@
+#include<stdio.h>  
+int main()  {  
+ int n1=0,n2=1,n3,i,s;  
+ scanf("%d",&s);  
+ printf("%d, %d",n1,n2);   
+ for(i=2;i<s;++i){  
+  n3=n1+n2;
+  printf(",");
+  printf(" %d",n3);  
+  n1=n2;  
+  n2=n3;  
+ } 
+}  

@@ -1,0 +1,8 @@
+#include <stdio.h>
+long long  Factorial2(int n){
+    if(n == 0 || n == 1)
+        return 1;
+    else
+        return n *Factorial2(n-2);
+
+}
